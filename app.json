@@ -1,0 +1,53 @@
+{
+    "name": "Alexa Telegraph Uploader",
+    "description": "Upload Vide, Animation, Pics And Text To Telegraph And Get Direct Link.",
+    "logo": "https://telegra.ph/file/9f201b7186f59f926de35.jpg",
+    "keywords": [
+        "python3",
+        "telegraph",
+        "bot",
+        "Alexa",
+        "asad",
+        "asadali",
+        "alexamusic"
+    ],
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Enter your bot token you can get it from @BotFather.",
+            "value": "@Alexa_Help",
+            "required": true     
+        },
+        "API_HASH": {
+            "description": "Enter your API HASH you can get it from my.telegram.org",
+            "value": "@Alexa_Help",
+            "required": true
+        },
+        "MONGO_DB_URI": {
+            "description": "Enter mongoDb URI you can get it from mongodb.com",
+            "value": "@Alexa_Help",
+            "required": true
+        },        
+        "MUST_JOIN": {
+            "description": "Enter the username of you channel or group.",
+            "value": "@Alexa_Help",
+            "required": true
+        },                
+        "LOG_ID": {
+            "description": "Enter id of your log group.",
+            "value": "@Alexa_Help",
+            "required": true
+        },                        
+        "API_ID": {
+            "description": "Enter your API ID here you can get it from my.telegram.org",
+            "value": "@Alexa_Help",
+            "required": true
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "stack": "container"
+}

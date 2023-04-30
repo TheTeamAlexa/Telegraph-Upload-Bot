@@ -1,0 +1,5 @@
+pyrogram==1.4.16
+tgcrypto
+telegraph
+python-dotenv==0.*
+motor==3.0.0
