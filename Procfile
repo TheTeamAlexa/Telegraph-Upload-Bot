@@ -1,1 +1,1 @@
-web: python Alexa.py
+worker: python3 Alexa.py

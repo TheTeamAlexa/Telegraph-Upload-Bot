@@ -3,3 +3,8 @@ tgcrypto
 telegraph
 python-dotenv==0.*
 motor==3.0.0
+pyromod==1.5
+psycopg2==2.*
+flask==2.1.1
+werkzeug==2.0.3
+args
