@@ -21,7 +21,9 @@ chat_watcher_group = 10
 telegraph = Telegraph()
 telegraph.create_account(short_name="The Team Alexa")
             
-## TEXT UPLOAD
+## TEXT UPLOAD THIS MODULE IS OFFICIALLY MADE BY TEAM ALEXA
+## Use credit if you wanna use this in your project : 
+## Copyright (c) 2023 -present Team=Alexa <https://github.com/TheTeamAlexa>
 
 @Client.on_message(filters.command("uploadtxt"))
 async def upload_text_telegraph(client, message: Message):
