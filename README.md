@@ -2,7 +2,7 @@
 
 <p align="center">➛ ɪɴᴛʀᴏᴅᴜᴄɪɴɢ ᴛʜᴇ ʟᴀᴛᴇsᴛ ᴘʀᴏᴊᴇᴄᴛ ꜰʀᴏᴍ ᴛᴇᴀᴍ ᴀʟᴇxᴀ - ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅ ʙᴏᴛ! ᴛʜɪs ɪɴᴄʀᴇᴅɪʙʟᴇ ʙᴏᴛ ᴄᴀɴ ᴇꜰꜰᴏʀᴛʟᴇssʟʏ ᴜᴘʟᴏᴀᴅ ᴘɪᴄᴛᴜʀᴇs, ᴠɪᴅᴇᴏs, ᴀɴɪᴍᴀᴛɪᴏɴs, ᴀɴᴅ ᴛᴇxᴛs ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ ᴀɴᴅ ɪɴsᴛᴀɴᴛʟʏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴡɪᴛʜ ᴀ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ꜰɪʟᴇ. ᴊᴜsᴛ ʀᴇᴍᴇᴍʙᴇʀ, ꜰᴏʀ ᴛʜᴇ ʙᴇsᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ, ᴇɴsᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ꜰɪʟᴇ ɪs ᴜɴᴅᴇʀ 5ᴍʙ ɪɴ sɪᴢᴇ.</p>
 
-<a href="https://t.me/Dr_Assad_Ali"><img src="https://telegra.ph/file/7d7df33268ac53f8480fe.jpg" alt="image" style="max-width:100%;"></a>
+<a href="https://t.me/Dr_Assad_Ali"><img src="https://telegra.ph/file/95e58c53ef6de3551639d.jpg " alt="image" style="max-width:100%;"></a>
 <p align="center">
 <a href="https://python.org"><img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python"></a>
 <br>
