@@ -38,13 +38,18 @@ async def upload_text_telegraph(client, message: Message):
     try:
         telegraph.create_account(short_name='The Team Alexa')
         author_url = f'https://telegram.dog/{message.from_user.username}' if message.from_user.id else None
-        response = telegraph.create_page(title='Uploaded By Team Alexa Bot', html_content=text, author_name=str(message.from_user.first_name), author_url=author_url)
+        if len(message.command) > 1:
+            alexa_title = ' '.join(message.command[1:])
+        else:
+            alexa_title = 'Uploaded By Team Alexa Bot'
+        
+        response = telegraph.create_page(title=alexa_title, html_content=text, author_name=str(message.from_user.first_name), author_url=author_url)
         generated_link = 'https://telegra.ph/{}'.format(response['path'])
         IN_BUTTON = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdatest")
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdates")
                 ],
                 [
                     InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -57,6 +62,7 @@ async def upload_text_telegraph(client, message: Message):
             disable_web_page_preview=True)
     except Exception as e:
         await msg.edit_text(f"Error: {str(e)}")
+
 
 ## UPLOADING FROM GROUP
 
@@ -105,7 +111,7 @@ async def upload_to_telegraph(bot, message):
                 [
                     [
                         InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
-                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdatest")
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdates")
                     ],
                     [
                         InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
